@@ -11,8 +11,11 @@ def home():
 
 @app.get("/estados")
 def estados():
-    return ESTADOS
+    return {"status": 200, "data": ESTADOS}
 
 @app.get("/estados/detalhes/{id}")
-def get_detalhes_estado(id: int):
-    return DETALHES[id]
+def get_detalhes(id: int):
+    if id in DETALHES:
+        return {"status": 200, "data": DETALHES[id]}
+    else:
+        return {"status": 400, "data": "Identificador de estado inválido"}
