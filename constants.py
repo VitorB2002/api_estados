@@ -27,3 +27,33 @@ estados = {
   26: {"uf": "SE", "estado": "Sergipe"},
   27: {"uf": "TO", "estado": "Tocantins"}
 }
+
+detalhes = {
+  1: {"uf": "AC", "estado": "Acre", "regiao": "Norte", "capital": "Rio Branco", "populacao": 881935, "area_km2": 164122, "idh": 0.663, "cidades_principais": ["Rio Branco", "Cruzeiro do Sul"], "fuso_horario": "UTC-5"},
+  2: {"uf": "AL", "estado": "Alagoas", "regiao": "Nordeste", "capital": "Maceió", "populacao": 3337357, "area_km2": 27778, "idh": 0.631, "cidades_principais": ["Maceió", "Arapiraca"], "fuso_horario": "UTC-3"},
+  3: {"uf": "AP", "estado": "Amapá", "regiao": "Norte", "capital": "Macapá", "populacao": 845731, "area_km2": 142828, "idh": 0.719, "cidades_principais": ["Macapá", "Santana"], "fuso_horario": "UTC-3"},
+  4: {"uf": "AM", "estado": "Amazonas", "regiao": "Norte", "capital": "Manaus", "populacao": 4207714, "area_km2": 1559159, "idh": 0.674, "cidades_principais": ["Manaus", "Parintins"], "fuso_horario": "UTC-4"},
+  5: {"uf": "BA", "estado": "Bahia", "regiao": "Nordeste", "capital": "Salvador", "populacao": 14873064, "area_km2": 564733, "idh": 0.660, "cidades_principais": ["Salvador", "Feira de Santana"], "fuso_horario": "UTC-3"},
+  6: {"uf": "CE", "estado": "Ceará", "regiao": "Nordeste", "capital": "Fortaleza", "populacao": 9132078, "area_km2": 148920, "idh": 0.682, "cidades_principais": ["Fortaleza", "Caucaia"], "fuso_horario": "UTC-3"},
+  7: {"uf": "DF", "estado": "Distrito Federal", "regiao": "Centro-Oeste", "capital": "Brasília", "populacao": 3055149, "area_km2": 5802, "idh": 0.824, "cidades_principais": ["Brasília", "Ceilândia"], "fuso_horario": "UTC-3"},
+  8: {"uf": "ES", "estado": "Espírito Santo", "regiao": "Sudeste", "capital": "Vitória", "populacao": 4018650, "area_km2": 46095, "idh": 0.740, "cidades_principais": ["Vitória", "Vila Velha"], "fuso_horario": "UTC-3"},
+  9: {"uf": "GO", "estado": "Goiás", "regiao": "Centro-Oeste", "capital": "Goiânia", "populacao": 7113540, "area_km2": 340086, "idh": 0.739, "cidades_principais": ["Goiânia", "Aparecida de Goiânia"], "fuso_horario": "UTC-3"},
+  10: {"uf": "MA", "estado": "Maranhão", "regiao": "Nordeste", "capital": "São Luís", "populacao": 7114598, "area_km2": 331937, "idh": 0.639, "cidades_principais": ["São Luís", "Imperatriz"], "fuso_horario": "UTC-3"},
+  11: {"uf": "MT", "estado": "Mato Grosso", "regiao": "Centro-Oeste", "capital": "Cuiabá", "populacao": 3526220, "area_km2": 903357, "idh": 0.743, "cidades_principais": ["Cuiabá", "Várzea Grande"], "fuso_horario": "UTC-4"},
+  12: {"uf": "MS", "estado": "Mato Grosso do Sul", "regiao": "Centro-Oeste", "capital": "Campo Grande", "populacao": 2778986, "area_km2": 357145, "idh": 0.742, "cidades_principais": ["Campo Grande", "Dourados"], "fuso_horario": "UTC-4"},
+  13: {"uf": "MG", "estado": "Minas Gerais", "regiao": "Sudeste", "capital": "Belo Horizonte", "populacao": 21168791, "area_km2": 586522, "idh": 0.731, "cidades_principais": ["Belo Horizonte", "Uberlândia"], "fuso_horario": "UTC-3"},
+  14: {"uf": "PA", "estado": "Pará", "regiao": "Norte", "capital": "Belém", "populacao": 8690745, "area_km2": 1247689, "idh": 0.639, "cidades_principais": ["Belém", "Ananindeua"], "fuso_horario": "UTC-3"},
+  15: {"uf": "PB", "estado": "Paraíba", "regiao": "Nordeste", "capital": "João Pessoa", "populacao": 4039277, "area_km2": 56585, "idh": 0.653, "cidades_principais": ["João Pessoa", "Campina Grande"], "fuso_horario": "UTC-3"},
+  16: {"uf": "PR", "estado": "Paraná", "regiao": "Sul", "capital": "Curitiba", "populacao": 11516840, "area_km2": 199307, "idh": 0.758, "cidades_principais": ["Curitiba", "Londrina"], "fuso_horario": "UTC-3"},
+  17: {"uf": "PE", "estado": "Pernambuco", "regiao": "Nordeste", "capital": "Recife", "populacao": 9616621, "area_km2": 98311, "idh": 0.683, "cidades_principais": ["Recife", "Jaboatão dos Guararapes"], "fuso_horario": "UTC-3"},
+  18: {"uf": "PI", "estado": "Piauí", "regiao": "Nordeste", "capital": "Teresina", "populacao": 3273227, "area_km2": 251529, "idh": 0.662, "cidades_principais": ["Teresina", "Parnaíba"], "fuso_horario": "UTC-3"},
+  19: {"uf": "RJ", "estado": "Rio de Janeiro", "regiao": "Sudeste", "capital": "Rio de Janeiro", "populacao": 17264943, "area_km2": 43780, "idh": 0.799, "cidades_principais": ["Rio de Janeiro", "São Gonçalo"], "fuso_horario": "UTC-3"},
+  20: {"uf": "RN", "estado": "Rio Grande do Norte", "regiao": "Nordeste", "capital": "Natal", "populacao": 3534165, "area_km2": 52811, "idh": 0.684, "cidades_principais": ["Natal", "Mossoró"], "fuso_horario": "UTC-3"},
+  21: {"uf": "RS", "estado": "Rio Grande do Sul", "regiao": "Sul", "capital": "Porto Alegre", "populacao": 11422973, "area_km2": 281730, "idh": 0.758, "cidades_principais": ["Porto Alegre", "Caxias do Sul"], "fuso_horario": "UTC-3"},
+  22: {"uf": "RO", "estado": "Rondônia", "regiao": "Norte", "capital": "Porto Velho", "populacao": 1796460, "area_km2": 237590, "idh": 0.690, "cidades_principais": ["Porto Velho", "Ji-Paraná"], "fuso_horario": "UTC-4"},
+  23: {"uf": "RR", "estado": "Roraima", "regiao": "Norte", "capital": "Boa Vista", "populacao": 631181, "area_km2": 224300, "idh": 0.676, "cidades_principais": ["Boa Vista", "Caracaraí"], "fuso_horario": "UTC-4"},
+  24: {"uf": "SC", "estado": "Santa Catarina", "regiao": "Sul", "capital": "Florianópolis", "populacao": 7252502, "area_km2": 95730, "idh": 0.774, "cidades_principais": ["Florianópolis", "Joinville"], "fuso_horario": "UTC-3"},
+  25: {"uf": "SP", "estado": "São Paulo", "regiao": "Sudeste", "capital": "São Paulo", "populacao": 46289333, "area_km2": 248209, "idh": 0.783, "cidades_principais": ["São Paulo", "Guarulhos"], "fuso_horario": "UTC-3"},
+  26: {"uf": "SE", "estado": "Sergipe", "regiao": "Nordeste", "capital": "Aracaju", "populacao": 2318822, "area_km2": 21915, "idh": 0.665, "cidades_principais": ["Aracaju", "Nossa Senhora do Socorro"], "fuso_horario": "UTC-3"},
+  27: {"uf": "TO", "estado": "Tocantins", "regiao": "Norte", "capital": "Palmas", "populacao": 1590248, "area_km2": 277720, "idh": 0.699, "cidades_principais": ["Palmas", "Araguaína"], "fuso_horario": "UTC-3"}
+}
