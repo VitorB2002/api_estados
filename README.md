@@ -12,10 +12,37 @@ Este projeto foi criado com único intuito de estudar sobre a criação e hosped
 
 # Tecnologias Utilizadas
 
-* FastApi
 * Python
+* FastApi
+* Uvicorn
 
-# Como usar?
+# Instalando a API
+
+Após realizar o fork ou baixar os documentos em seu computador alguns passos devem ser seguidores para utilizar a API.
+
+1. Instalar os requisitos atráves do requirements.txt
+
+Ao executar o seguinte comando todas as bibliotecas necessárias serão instaladas.
+
+```
+pip install -r requirements.txt
+```
+
+Obs: é recomendado a configuração de uma venv (ambiente virtual).
+
+2. Subir uma instância local
+
+No diretório raiz o seguinte código deve ser executado para acessar a api localmente.
+```
+uvicorn main:app --reload
+```
+Obs: a API geralmente estára disponível em <localhost:8000/>
+
+3. Acessar a documentação
+
+Para acessar a documentação da API basta após o passo anterior acessar <localhost:8000/docs>
+
+# Rotas
 
 A API possui 3 rotas:
 
