@@ -2,6 +2,8 @@ from fastapi import FastAPI
 import constants
 
 app = FastAPI()
+ESTADOS = constants.estados
+DETALHES = constants.detalhes
 
 @app.get("/")
 def home():
@@ -9,4 +11,8 @@ def home():
 
 @app.get("/estados")
 def estados():
-    return constants.estados
+    return ESTADOS
+
+@app.get("/estados/detalhes/{id}")
+def get_detalhes_estado(id: int):
+    return DETALHES[id]

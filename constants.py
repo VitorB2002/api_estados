@@ -78,7 +78,7 @@ detalhes = {
       "populacao": 14141626, 
       "area_km2": 564760429, 
       "idh": 0.691, 
-      "fuso_horario": "UTC-3"
+      "fuso_horario": "GMT-3"
       },
   6: {
       "uf": "CE", 
