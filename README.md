@@ -16,6 +16,10 @@ Este projeto foi criado com único intuito de estudar sobre a criação e hosped
 * FastApi
 * Uvicorn
 
+# Acesso a API
+
+A API já se encontra hospedada no site <https://render.com/> e pode ser acessada pelo link <https://api-estados-br.onrender.com>
+
 # Instalando a API
 
 Após realizar o fork ou baixar os documentos em seu computador alguns passos devem ser seguidores para utilizar a API.
